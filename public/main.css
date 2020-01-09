@@ -1,12 +1,25 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+
   }
   
   li {
     display: block;
+   
   }
+  li a {
+    font-size:x-large;
+    display: block;
+    color: #1585a7;
+    padding: 60px 18px;
+  }
+  li a:hover {
+  background-color: #555;
+  color: white;
+}
   .grid-container {
     display: grid;
     grid-gap: 5px 10px;
@@ -14,7 +27,7 @@ ul {
     background-color: rgb(142, 111, 160);
     padding: 2px;
     margin-left:20px;
-    margin-top: 800px;
+    margin-top: 200px;
   }
   
   .grid-item {
@@ -26,4 +39,7 @@ ul {
   }
   body {
       background-image: url('/image/bp.jpg');
+  }
+  h1{
+      color: #1585a7;
   }
