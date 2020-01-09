@@ -17,14 +17,14 @@ ul {
     padding: 60px 18px;
   }
   li a:hover {
-  background-color: #555;
+  background-color: rgb(150, 202, 209);
   color: white;
 }
   .grid-container {
     display: grid;
     grid-gap: 5px 10px;
     grid-template-columns: auto auto auto;
-    background-color: rgb(142, 111, 160);
+    background-color: rgb(129, 194, 224);
     padding: 2px;
     margin-left:20px;
     margin-top: 200px;
@@ -32,7 +32,7 @@ ul {
   
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(82, 170, 221, 0.8);
     padding: 9px;
     font-size: 20px;
     text-align: center;
@@ -42,4 +42,56 @@ ul {
   }
   h1{
       color: #1585a7;
+      margin-left: 550px;
   }
+  .a {
+    position: absolute;
+    height:200px;
+    weight:200px;
+    left:30px;
+
+    }
+    .a #cake1{
+    height:300px;
+    weight:200px;
+    }
+
+    .b{
+    position:absolute;
+    height:300px;
+    weight:200px;
+    left:300px;
+    top: 400px;
+    } 
+    .b #a2{
+    height:300px;
+    weight:200px;
+    }
+
+    .c{
+    position:absolute;
+    height:300px;
+    weight:200px;
+    left:800px;
+    }
+    .c #a3 {
+    height:300px;
+    weight:200px;
+    } 
+    .grid-container2 {
+        display: grid;
+        grid-gap: 5px 10px;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(129, 194, 224);
+        padding: 2px;
+        margin-left:20px;
+        margin-top: 820px;
+      }
+      
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(82, 170, 221, 0.8);
+        padding: 9px;
+        font-size: 20px;
+        text-align: center;
+      }
